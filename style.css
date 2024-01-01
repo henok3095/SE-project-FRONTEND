@@ -1,0 +1,117 @@
+body{
+  margin: 0px 70px;
+  font-size: 23px;
+  color: black;
+}
+.drop-content{
+  display: none;
+}
+
+.drop{
+  display: flex;
+  gap: 600px;
+  background-color: rgb(54, 113, 154);
+  padding-top: 10px;
+  height: 40px;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 25px;
+  margin-right: 30px;
+  color: white;
+ 
+}
+.dropbutton{
+  border-style: none;
+  font-size: 25px;
+  padding-left: 10px;
+  background-color: transparent;
+}
+ .information{
+  display: flex;
+  gap: 60px;
+  
+ }
+ .content{
+ 
+  margin-right: 150px;
+  background-color: #A1E6F5;
+ } 
+
+.information li{
+  list-style-type: none;
+  font-size: 25px;
+  margin-bottom: 10px;
+  
+}
+.information a{
+  color: black;
+  text-decoration: none;
+  padding-right: 30px;
+}
+.contents{
+  background-color: #A1E6F5;
+ 
+}
+.button{
+  margin-left: 280px;
+  border-radius: 7px;
+  border-style: none;
+  width: 60px;
+  height: 20px;
+ background-color:  #53CA12;
+ color: white;
+}
+section{
+  margin-bottom: 200px;
+ 
+}
+
+.logout{
+  border-radius: 10px;
+  border-style: none;
+  height: 26px;
+  width: 80px;
+  background-color:  #53CA12;
+  color: white;
+}
+.add{
+  border-radius: 15px;
+  border-style: none;
+  width: 130px;
+  height: 35px;
+  background-color:  #53CA12;
+  color: white;
+  margin-bottom: 50px;
+  margin-left: 300px;
+}
+input{
+  background-color: #C4C4C4;
+  border-radius: 5px;
+  border-style: none;
+  height: 25px;
+  width: 180px;
+  margin-left: 20px;
+ 
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 100px;
+  
+}
+th, td {
+  border: 1px solid;
+  padding: 8px;
+  text-align: left;
+}
+th{
+  background-color: #C4C4C4;
+}
+#search{
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 10px;
+}
