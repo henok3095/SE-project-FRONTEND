@@ -18,7 +18,7 @@
 
 .page {
   width: 100%;
-  height: 110px;
+  height: 100px;
   font-family: 'Encode Sans Condensed', sans-serif;
   font-weight: 600;
   letter-spacing: .03em;
@@ -191,73 +191,92 @@ header a {
     text-decoration: none;
     color: black;
   }
+  
 
+  
+  /* added css*/
 
-
-/*added css */
-
-  .main-content-side {
-    margin-left: 550px; 
+  main {
+    flex-grow: 1;
+    padding: 20px;
+    transition: margin-left 0.3s;
+    width: 100%;
 }
 
-.add-sell {
-    padding: -30%;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
-.add-sell form {
-    display: flex;
-    flex-direction: column;
+.View-Sell {
+    width: 70%;
+    margin-left: 300px;
 }
 
-.add-sell label {
-    margin-right: 10px;
-    width: 100px;
+th, td {
+    border: 1px solid #ddd;
+    padding: 25px;
+    text-align: left;
 }
 
-.add-sell input {
-    margin-bottom: 10px;
-    flex: 1;
-    background-color: #c4c4c4;
-    border: none;
-    height: 25px;
+th {
+    background-color: #f2f2f2;
 }
 
-.add-sell .form-group {
+.View-Sell-button {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
-.add-sell .form-group label {
-    align-self: flex-start;
-}
-
-.main-content {
-    display: flex;
-    justify-content: flex-start;
-    z-index: 1;
-}
-
-.add-sell button {
-    background-color: #53CA12;
-    color: black;
-    width: 100px;
-    border-radius: 10px;
+.addsell-button {
     font-weight: bold;
-    padding: 10px;
+    height: 30px;
+    margin-left: auto;
+    width: 100px;
+    background-color: #53CA12;
     border: none;
-    outline: none;
-    align-self: flex-end;
-}
-.add-sell h2{
-  margin-bottom: 30px;
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+
 }
 
-.add-sell button {
-  margin-top: 50px; 
+.addsell-button:hover {
+    
 }
-.add-sell h2 {
-  font-size: 40px;
+
+.icon-search {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+#search-bar {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.bi-search {
+    font-size: 18px;
+}
+.Stock-Minder{
+    margin-left: 40px;
+}
+.viewsell-h{
+    font-size: 40px;
   font-weight: bolder;
+}
+.search-p{
+    font-size: 18px;
+}
+#search-bar{
+    border-radius: 10px ;
 }
