@@ -52,13 +52,17 @@ header a {
   }
   .link-btn{
   font-weight: 600;
-  margin-left: 40px;
+  margin-left: 2.5vw;
   padding: 6px 18px;
   border-radius: 13px;
   background: var(--button-color);
   border: 2px solid var(--button-color);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
   list-style: none; 
+  }
+  h2{
+    margin-left: 2.5vw ;
+    display: flex;
   }
 
 .all-links{
@@ -98,7 +102,9 @@ header a {
   cursor: pointer;
   pointer-events: auto;
   margin-left: 25px;
+  margin-right: 4.5vw;
   touch-action: none; 
+  margin-right: 40px;
 }
 .icon-bar {
   display: block;
@@ -190,6 +196,20 @@ header a {
   .all__nav a{
     text-decoration: none;
     color: black;
+  }
+  @media (min-width: 768px) and (max-width: 1600px) {
+    /* Adjustments for tablets and screens up to 1600px width */
+    h2{
+      margin-left: 4.5vw;
+
+    }
+    .button{
+      margin-right: 80px;
+    }
+    .link-btn {
+      margin-left: 10px;
+      margin-right: 2.5vw; 
+    }
   }
   
 
