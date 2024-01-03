@@ -23,6 +23,7 @@
   font-weight: 600;
   letter-spacing: .03em;
   color: #212121;
+ 
 }
 
 header {
@@ -105,6 +106,7 @@ header a {
   margin-right: 4.5vw;
   touch-action: none; 
   margin-right: 40px;
+  padding-bottom: 30px;
 }
 .icon-bar {
   display: block;
@@ -131,7 +133,7 @@ header a {
 }
 
 #nav-content {
-  margin-top: 70px;
+  margin-top: 50px;
   padding: 20px;
   width: 90%;
   max-width: 300px;
@@ -196,6 +198,7 @@ header a {
   .all__nav a{
     text-decoration: none;
     color: black;
+   
   }
   
   input{
@@ -207,16 +210,7 @@ header a {
     margin-left: 20px;
    
   }
-  .buttn{
-    margin-left: 400px;
-    border-radius: 7px;
-    border-style: none;
-    width: 60px;
-    height: 20px;
-   background-color:  #53CA12;
-   color: white;
-  margin-bottom: 100px;
-  }
+  
   form {
     display: flex;
     flex-direction: column;
@@ -239,17 +233,61 @@ header a {
     align-items: center;
     margin-bottom: 15px;
   }
+  
   .prod{
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 10px;
-    margin-left: 0px;
+   margin-left: 0;
+   padding-left: 0;
+    margin-top: 10px;
+  }
+ 
+  .addp{
+    border-radius: 15px;
+    border-style: none;
+    width: 150px;
+    height: 35px;
+    background-color:  #53CA12;
+    color: white;
+   margin-top: 80px;
+   margin-left: 50vw;
+  
+  }
+  
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 100px;
+   
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+   
+  }
+  th{
+    background-color: #C4C4C4;
+  }
+  td{
+    color: rgb(166, 42, 178);
+   width: 70px;
+  }
+  #search{
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 10px;
+    max-width: 200px;
+  
   }
   .navigation{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr 0.5fr;
     align-items: center;
    
   }
+ 
   @media (min-width: 768px) and (max-width: 1600px) {
     /* Adjustments for tablets and screens up to 1600px width */
     h2{
