@@ -4,30 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inventory</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./main.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="./output.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 
-    <header class="head__link" tabindex="0">
-      <h2>Stock Minder</h2>
-        <ul class="all-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#">Inventory</a></li>
-          <li><a href="#">Login</a></li>
-        </ul>
-         <li><a href="#" class="link-btn">Logout</a></li>
+
+
+
+
+
+    <header class="" >
+      <nav class="grid grid-cols-3 justify-between items-center w-[92%] mx-auto nav-bar">
+        <div class="nav-logo">
+            <img class="w-40" src="./Images/main-logo.png" alt="Me">
+        </div>
+        <div class=" nav-links">
+            <ul class="flex flex-row items-center gap-[4vw]">
+              <li>
+                <a class="nav-text-link" href="#home">Home</a>
+              </li>
+              <li>
+                <a class="nav-text-link" href="#">Inventory</a>
+              </li>
+              <li>
+                <a class="nav-text-link" href="#">Login</a>
+              </li>
+            </ul>
+        </div>
+        <button class="logout"><a href="#" class="link-btn">Logout</a></button>
+      </nav>
     </header>
 
-    <div class="page">
+
+    
+
+
+
+
+  <div class="main-sidenav">
+    <div class="flex items-center gap-6 ">
         <div id="nav-container">
-          <div class="bg"></div>
-          <div class="button" tabindex="0">
+          <div class="text-3xl cursor-pointer md:hidden"></div>
+          <div class="burger" tabindex="0">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </div>
+
+
+
           <div id="nav-content" tabindex="0">
             <ul class="all__nav">
               <li class="dropdown"><a href="#0" class="anchor">Dashboard</a></li>
