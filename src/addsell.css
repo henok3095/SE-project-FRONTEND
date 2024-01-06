@@ -196,12 +196,16 @@ header a {
 
 /*added css */
 
-  .main-content-side {
+.main-content-side {
     margin-left: 550px; 
 }
 
 .add-sell {
     padding: -30%;
+    margin-top: 30px;
+}
+.add-sell h2{
+  margin-left: -100px;
 }
 
 .add-sell form {
@@ -211,7 +215,7 @@ header a {
 
 .add-sell label {
     margin-right: 10px;
-    width: 100px;
+    width: 140px;
 }
 
 .add-sell input {
@@ -219,7 +223,9 @@ header a {
     flex: 1;
     background-color: #c4c4c4;
     border: none;
-    height: 25px;
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
 }
 
 .add-sell .form-group {
