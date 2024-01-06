@@ -87,21 +87,46 @@
   <main>
     <section class="dashboard"></section>
     <section class="add-sell">
-        <h2>Add Supplier</h2>
+        <h2>Add Product</h2>
         <div class="main-content">
             <form id="add-sell-form">
                 <div class="form-group">
-                    <label for="sell-code">Supplier Code:</label>
+                    <label for="sell-code">Product Code:</label>
                     <input type="text" id="sell-code" name="sell-code" required>
                 </div>
                 <div class="form-group">
-                    <label for="Product-id">Supplier Name:</label>
+                    <label for="Product-id">Product Name:</label>
                     <input type="text" id="Product-id" name="Product-id" required>
                 </div>
+
                 <div class="form-group">
-                    <label for="Quantity">Conatct:</label>
-                    <input type="text" id="Quantity" name="Quantity" required>
+                  <label for="sell-code">Supplier Name:</label>
+                  <select id="sell-code" name="sell-code" required>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                  </select>
                 </div>
+                
+
+                <div class="form-group">
+                  <label for="sell-code">Product Type:</label>
+                  <select id="sell-code" name="sell-code" required>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                  </select>
+                </div>
+              <div class="form-group">
+                  <label for="Product-id">Quantity:</label>
+                  <input type="number" id="Product-id" name="Product-id" required>
+              </div>
+              <div class="form-group">
+                <label for="Product-id">Price:</label>
+                <input type="number" id="Product-id" name="Product-id" required>
+            </div>
+
+              
               <!--   <div class="form-group">
                     <label for="Price">Price:</label>
                     <input type="text" id="Price" name="Price" required>
@@ -110,6 +135,33 @@
                     <label for="Date">Date:</label>
                     <input type="text" id="Date" name="Date" required>
                 </div> -->
+               
+                
+                <div class="form-group">
+                  <label for="Quantity" class="label-property"> Property:</label>
+                  <div class="select-wrapper">
+                    <select id="sell-code" name="sell-code" required>
+                      <option value="option1">Option 1</option>
+                      <option value="option2">Option 2</option>
+                      <option value="option3">Option 3</option>
+                    </select>
+                    <button id="add-button" onclick="showPopup()">+</button>
+                  </div>
+                </div>
+                
+                <div id="popup" class="popup">
+                  <div class="popup-content">
+                    <span class="close" onclick="closePopup()">&times;</span>
+                    <div class="popup-item">
+                      <h1>Add Property</h1>
+                      <input type="text" id="input1" placeholder="Brand">
+                      <input type="text" id="input2" placeholder="Size">
+                      <button type="submit">Submit</button>
+                    </div>
+                  </div>
+                </div>
+                
+
                 <button type="submit">Save</button>
             </form>
         </div>

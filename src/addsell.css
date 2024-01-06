@@ -227,6 +227,15 @@ header a {
     width: 250px;
     border-radius: 10px;
 }
+select{
+  margin-bottom: 10px;
+  flex: 1;
+  background-color: #c4c4c4;
+  border: none;
+  height: 30px;
+  width: 250px;
+  border-radius: 10px;
+}
 
 .add-sell .form-group {
     display: flex;
@@ -266,4 +275,47 @@ header a {
 .add-sell h2 {
   font-size: 40px;
   font-weight: bolder;
+}
+.popup {
+  display: none;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #000;
+  background-color: rgba(128, 128, 128, 0.5);; /* Update the background color to transparent */
+  z-index: 9999; /* Update the z-index to be higher than other content */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow for visual effect */
+}
+
+.popup-content {
+  padding: 20px;
+  position: relative; /* Ensure the content is positioned relative to the popup */
+  background-color: #fff; /* Add a background color to the popup content */
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.popup-item h1 {
+  margin-bottom: 30px;
+}
+
+.popup-item input {
+  display: block;
+  padding-left: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 40px;
+  width: 200px;
+}
+.select-wrapper{
+  margin-top: -40px;
+}
+.label-property{
+  margin-top: 20px;
 }
