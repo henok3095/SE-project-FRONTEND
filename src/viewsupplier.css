@@ -234,20 +234,18 @@ th {
 
 .addsell-button {
     font-weight: bold;
-    height: 30px;
+    height: 33px;
     margin-left: auto;
-    width: 100px;
+    width: 150px;
+    padding-left: 25px;
+    padding-top: 5px;
     background-color: #53CA12;
-    border: none;
+    border: 1px solid #53CA12 ;
     color: white;
     border-radius: 10px;
     transition: background-color 0.3s ease;
     cursor: pointer;
 
-}
-
-.addsell-button:hover {
-    
 }
 
 .icon-search {
