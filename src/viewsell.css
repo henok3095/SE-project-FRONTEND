@@ -234,7 +234,7 @@ th {
 
 .addsell-button {
     font-weight: bold;
-    height: 30px;
+    height: 40px;
     margin-left: auto;
     width: 100px;
     background-color: #53CA12;
@@ -243,12 +243,13 @@ th {
     border-radius: 10px;
     transition: background-color 0.3s ease;
     cursor: pointer;
+    font-size: medium;
 
 }
 
-.addsell-button:hover {
+/* .addsell-button:hover {
     
-}
+} */
 
 .icon-search {
     display: flex;
