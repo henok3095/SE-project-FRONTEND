@@ -9,3 +9,6 @@ $(document).ready(function() {
     event.preventDefault(); 
     event.stopPropagation(); 
   }, { passive: false });
+
+
+  

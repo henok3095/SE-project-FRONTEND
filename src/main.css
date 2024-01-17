@@ -197,6 +197,41 @@ header a {
     text-decoration: none;
     color: black;
   }
+
+  .form-container {
+    margin-top: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+
+  .search-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .search-button:hover {
+    background-color: #45a049;
+  }
+  
   @media (min-width: 768px) and (max-width: 1600px) {
     /* Adjustments for tablets and screens up to 1600px width */
     h2{
